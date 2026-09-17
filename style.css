@@ -1,0 +1,239 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+/* CONTENEDOR LOGO + TITULO */
+.logo-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* LOGO */
+.logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* HEADER */
+header{
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #00bcd4;
+}
+
+/* BANNER */
+.banner{
+    background-image: url("/img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(251, 249, 249);
+    text-align: center; 
+    padding: 100px 20px;
+}
+
+/* SECCIONES */
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+/* FORMULARIO */
+input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #1e2a38;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00bcd4;
+}
+
+/* CATÁLOGO */
+.catalogo{
+    text-align: center;
+}
+
+.producto{
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.producto:hover{
+    transform: scale(1.05);
+}
+
+.producto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BENEFICIOS */
+.beneficios{
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1e2a38;
+    color: white;
+    padding: 15px;
+}
+
+/* CONTACTO */
+.contacto{
+    text-align: center;
+    padding: 40px;
+}
+
+.info-contacto{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* FORMULARIO CONTACTO */
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto input,
+.form-contacto textarea{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.form-contacto textarea{
+    height: 100px;
+}
+
+/* SERVICIOS */
+.servicios{
+    text-align: center;
+    padding: 40px;
+}
+
+.servicio{
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.servicio:hover{
+    transform: scale(1.03);
+}
+
+
+/* NOSOTROS */
+.nosotros{
+    text-align: center;
+    padding: 40px;
+}
+
+.card-nosotros{
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card-nosotros:hover{
+    transform: scale(1.03);
+}
+
+/* HEADER FLEX */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e2a38;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+/* LOGO */
+.logo{
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* TÍTULO */
+header h1{
+    flex: 1;
+    text-align: center;
+    margin: 0;
+}
+
+/* NAV */
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}

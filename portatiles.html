@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portátiles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/logo.png">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1e1e2f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px;
+        }
+
+        .card-content p {
+            color: #555;
+        }
+
+        footer {
+            background: #1e1e2f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="img/logo.png" alt="Logo" class="logo">
+    <h1>Punto Tecnológico</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="servicio.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="container">
+    <div class="grid">
+
+        <div class="card">
+            <img src="/img/portatilDos.jpg" alt="Portátil 1">
+            <div class="card-content">
+                <h3>Portátil Gamer</h3>
+                <p>Alto rendimiento para juegos y diseño gráfico.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/img/portatilTres.jpg" alt="Portátil 2">
+            <div class="card-content">
+                <h3>Portátil Empresarial</h3>
+                <p>Ideal para trabajo, ligero y eficiente.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/img/portatilDos.jpg" alt="Portátil 3">
+            <div class="card-content">
+                <h3>Portátil Estudiante</h3>
+                <p>Perfecto para estudio y tareas diarias.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>Valencia Tech Desarrollo WEB © 2026</p>  
+</footer>
+
+</body>
+</html>
